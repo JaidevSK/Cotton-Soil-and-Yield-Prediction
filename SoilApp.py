@@ -28,4 +28,4 @@ a=predict(np.array([6.502985292, 20.87974371, 82.00274423, 0.92, 7.4, 100, 50,	4
 if a[0] == 0:
   st.write("No Cotton")
 elif a[0] == 1:
-  st.write("Yes Cotton)
+  st.write("Yes Cotton")
