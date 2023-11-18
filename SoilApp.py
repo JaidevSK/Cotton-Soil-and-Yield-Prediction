@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 def predict(data):
-  clf = joblib.load(“soilPredModel.sav”)
+  clf = joblib.load('soilPredModel.sav')
   return clf.predict(data)
 
 st.write("Give the User Inputs")
