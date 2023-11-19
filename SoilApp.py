@@ -23,7 +23,7 @@ grainsmmoth = st.number_input('Grain Surface Smoothness')
 particlespacing = st.number_input('Particle Spacing')
 partwidth = st.number_input('Particle Width')
 
-a=predict(np.array([6.502985292, 20.87974371, 82.00274423, 0.92, 7.4, 100.0, 50.0,	43.0,	30.0,	19.0,	0.0, 1.0,	1.0]).reshape(1, -1))
+a=predict(np.array([6.502985292,20.87974371,82.00274423,0.92,7.4,100.0,50.0,43.0,30.0,19.0,0.0,1.0,1.0]).reshape(1, -1))
 
 if a[0] == 0:
   st.write("No Cotton")
